@@ -1,3 +1,4 @@
+
 def input_students():
     n_student = int(input("Number of students: "))
 
