@@ -57,7 +57,7 @@ class School:
         self.courses = []
 
     def get_input(self, stdscr, prompt):
-        # Hàm hỗ trợ để thay thế chức năng của input() mặc định
+      
         stdscr.addstr(prompt)
         stdscr.refresh()
         curses.echo()
@@ -165,7 +165,7 @@ class School:
 
 # --- Main Program ---
 def main(stdscr):
-    # Cho phép thiết bị đầu cuối cuộn nội dung nếu dài hơn khung hình
+   
     stdscr.scrollok(True)
     school = School()
     
