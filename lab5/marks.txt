@@ -1,0 +1,4 @@
+student_id,course_id,mark
+1,C1,85
+2,C2,95
+3,C3,78

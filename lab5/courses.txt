@@ -1,0 +1,4 @@
+course_id,title
+C1,Python Basics
+C2,Data Science
+C3,Machine Learning
