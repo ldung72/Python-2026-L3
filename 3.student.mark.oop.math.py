@@ -163,7 +163,6 @@ class School:
         self.list_students(stdscr)
         stdscr.refresh()
 
-# --- Main Program ---
 def main(stdscr):
    
     stdscr.scrollok(True)
@@ -191,5 +190,4 @@ def main(stdscr):
     stdscr.getch()
 
 if __name__ == "__main__":
-    # curses.wrapper khởi tạo tự động stdscr và khôi phục giao diện terminal gốc khi tắt
     curses.wrapper(main)
